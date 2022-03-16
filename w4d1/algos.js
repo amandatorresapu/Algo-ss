@@ -84,3 +84,23 @@ const nums4 = [5, 2, 6, 2, 3, 1, 6, 3, 2, 5, 2];
 const expected7 = 1;
 
 function oddOccurrencesInArray(nums) {}
+
+// function oddOccurrencesInArray(nums) {
+//   const freqTable = {};
+
+//   for (const n of nums) {
+//     if (freqTable.hasOwnProperty(n)) {
+//       freqTable[n]++;
+//     } else {
+//       freqTable[n] = 1;
+//     }
+//   }
+
+//   for (const key in freqTable) {
+//     if (freqTable[key] % 2 !== 0) {
+//       return +key; // + converts the string key back to int.
+//     }
+//   }
+
+// The spec guaranteed there will be a solution so no other return is needed.
+// }
