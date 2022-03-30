@@ -38,7 +38,14 @@ reverse(he) = e + reverse(h)
 reverse(h) = h
 
 */
-function reverseStr(str) {}
+function reverseStr(str) {
+  i = str.length-1
+  newStr = ""
+  if (str.length == 0){
+      return str
+    return reverseStr(str) = i
+  }
+}
 
 console.log(reverseStr(str1), expected1);
 
