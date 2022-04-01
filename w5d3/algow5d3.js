@@ -40,10 +40,11 @@ reverse(h) = h
 */
 function reverseStr(str) {
   i = str.length-1
+  x = 1
   newStr = ""
   if (str.length == 0){
       return str
-    return reverseStr(str) = i
+    return reverseStr(str[i-x]) = i
   }
 }
 
